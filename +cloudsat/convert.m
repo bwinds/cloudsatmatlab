@@ -10,7 +10,7 @@ function [outfield, missingval] = convert(infield, fieldname)
 % Output arguments:
 %  output - matrix of converted data.
 %
-% See http://github.com/ethan-nelson/cloudsat for more information.
+% See http://github.com/ethan-nelson/cloudsatmatlab for more information.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

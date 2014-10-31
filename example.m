@@ -6,7 +6,6 @@
 
 filename = '/CloudSat/2b-geoprof/2011107145839_26435_CS_2B-GEOPROF_GRANULE_P_R04_E04.hdf';
 algorithm = '2B-GEOPROF';
-fieldname = ;
 
 cloudsat.io('open', filename, algorithm); % Open file initally
 field = cloudsat.io('Radar_Reflectivity'); % Read reflectivity

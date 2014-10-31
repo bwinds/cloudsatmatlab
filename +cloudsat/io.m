@@ -10,7 +10,7 @@ function [field] = io(varname, varargin)
 % Output arguments:
 %  field - matrix of read data
 %
-% See http://github.com/ethan-nelson/cloudsat for more information.
+% See http://github.com/ethan-nelson/cloudsatmatlab for more information.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

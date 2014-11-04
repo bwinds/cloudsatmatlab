@@ -171,3 +171,5 @@ switch upper(inalgorithm)
   otherwise
     error('The algorithm specified cannot be found. Please double check it.')
 end
+
+end

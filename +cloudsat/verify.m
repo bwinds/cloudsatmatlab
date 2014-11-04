@@ -57,7 +57,7 @@ switch upper(inalgorithm);
       otherwise;
         error('The product specified cannot be found in the algorithm. Please double check it.');
       end;
-  case '2B-CWC-RVOD' or '2B_CWC_VOD';
+  case '2B-CWC-RVOD' or '2B_CWC_RVOD';
     outalgorithm = '2B-CWC-RVOD';
     switch upper(inproduct);
       case

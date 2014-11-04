@@ -53,7 +53,7 @@ switch upper(inalgorithm)
     outalgorithm = '2C-PRECIP-COLUMN'
     
   case '2C-RAIN-PROFILE' or '2C_RAIN_PROFILE'
-    outlagorithm = '2C-RAIN-PROFILE'
+    outalgorithm = '2C-RAIN-PROFILE'
     
   case '2C-SNOW-PROFILE' or '2C_SNOW_PROFILE'
     outalgorithm = '2C-SNOW-PROFILE'

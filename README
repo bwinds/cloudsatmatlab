@@ -10,5 +10,7 @@ Functions available:
 * Read a product:         data = cloudsat.io('read',PRODUCTNAMEHERE);
 * Convert a product:      data = cloudsat.convert(data,PRODUCTNAMEHERE);
 
+At the moment, the algorithm and product name are case sensitive and must match the case of the fields on the DPC site. For example, 2B-GEOPROF and Radar_Reflectivity are the proper cases.
+
 Versions successfully tested on include R2011b, R2014a, and R2014b. Please feel free to contact me with other compatibilities at ethan-nelson@users.noreply.github.com or directly on GitHub.
 

@@ -8,7 +8,8 @@ function [outfield, missingval] = convert(infield, fieldname)
 %  fieldname - name of field (e.g. Radar_Reflectivity)
 %
 % Output arguments:
-%  output - matrix of converted data.
+%  outfield - matrix of converted data.
+%  missingval - converted value of missing data.
 %
 % See http://github.com/ethan-nelson/cloudsatmatlab for more information.
 %
@@ -18,9 +19,9 @@ factorname = strcat(fieldname, '.factor');
 offsetname = strcat(fieldname, '.offset');
 missingname = strcat(fieldname, '.missing');
 
-factor = cloudsat.io(factorname);
-offset = cloudsat.io(offsetname);
-missingval = cloudsat.io(missingname);
+factor = cloudsat.io('read',factorname);
+offset = cloudsat.io('read',offsetname);
+missingval = cloudsat.io('read',missingname);
 
 outfield = (infield - offset)./factor;
 missingval = (missingval - offset)./factor;

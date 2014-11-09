@@ -4,12 +4,11 @@ This repository contains code that allows robust reading of CloudSat files.
 
 To install, simply move the +cloudsat folder into your main MATLAB directory, ensuring the plus sign is retained in the directory name.
 
-___To use this program___
-1. Open the file:                     cloudsat.io('open',FILENAMEHERE,ALGORITHMNAMEHERE);
-2. Read the product:                  data = cloudsat.io('read',PRODUCTNAMEHERE);
-3. Convert the product (if desired):  data = cloudsat.convert(data,PRODUCTNAMEHERE);
-4. Read another product (if desired): addl = cloudsat.io('read',PRODUCTNAMEHERE);
-5. Close the file:                    cloudsat.io('close');
+Functions available:
+* Open the file:          cloudsat.io('open',FILENAMEHERE,ALGORITHMNAMEHERE);
+* Close the file:         cloudsat.io('close');
+* Read a product:         data = cloudsat.io('read',PRODUCTNAMEHERE);
+* Convert a product:      data = cloudsat.convert(data,PRODUCTNAMEHERE);
 
 Versions successfully tested on include R2011b, R2014a, and R2014b. Please feel free to contact me with other compatibilities at ethan-nelson@users.noreply.github.com or directly on GitHub.
 

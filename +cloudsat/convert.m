@@ -15,6 +15,12 @@ function [outfield, missingval] = convert(infield, fieldname)
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+if nargin < 2;
+    error('Please specified the array for conversion and the field name to read the properties.');
+elseif nargin > 2;
+    error('You have specified too many inputs. Check syntax of command.');
+end;
+
 factorname = strcat(fieldname, '.factor');
 offsetname = strcat(fieldname, '.offset');
 missingname = strcat(fieldname, '.missing');

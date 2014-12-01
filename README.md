@@ -1,6 +1,6 @@
 #### DOWNLOAD FILES HERE: https://github.com/ethan-nelson/cloudsatmatlab/releases ####
 
-##### For now, if you would like updates, email me at `ethan-nelson@users.noreply.github.com`. #####
+##### To subscribe to updates, sign up here: http://goo.gl/forms/YCnazb4C5r #####
 
 cloudsatmatlab
 ==============

@@ -14,6 +14,8 @@ Functions available:
 * Close the file:         `cloudsat.io('close');`
 * Read a product:         `data = cloudsat.io('read',PRODUCTNAMEHERE);`
 * Convert a product:      `data = cloudsat.convert(data,PRODUCTNAMEHERE);`
+* If you wish to know the missing value quantity after conversion, use this product conversion function call instead: 
+    `[data, missingvalue] = cloudsat.convert(data,PRODUCTNAMEHERE);`
 
 At the moment, the algorithm and product name are case sensitive and must match the case of the fields on the DPC site. For example, `2B-GEOPROF` and `Radar_Reflectivity` are the proper cases.
 
